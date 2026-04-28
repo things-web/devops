@@ -1,10 +1,96 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>DevOps CI/CD Project</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DevOps CI/CD Project</title>
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+body{
+    background:linear-gradient(135deg,#0f172a,#1e293b,#111827);
+    color:white;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+.container{
+    max-width:800px;
+    width:100%;
+    background:rgba(255,255,255,0.06);
+    border:1px solid rgba(255,255,255,0.08);
+    border-radius:18px;
+    padding:40px;
+    text-align:center;
+    box-shadow:0 20px 40px rgba(0,0,0,0.35);
+}
+.badge{
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:999px;
+    background:#16a34a;
+    font-size:14px;
+    margin-bottom:20px;
+}
+h1{
+    font-size:42px;
+    margin-bottom:15px;
+}
+p{
+    color:#cbd5e1;
+    font-size:18px;
+    line-height:1.6;
+}
+.stack{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
+    gap:12px;
+    margin-top:30px;
+}
+.card{
+    background:rgba(255,255,255,0.05);
+    padding:15px;
+    border-radius:12px;
+    font-weight:bold;
+}
+.footer{
+    margin-top:30px;
+    font-size:14px;
+    color:#94a3b8;
+}
+</style>
 </head>
 <body>
-    <h1>Deployment Successful 🚀</h1>
-    <p>Automated using Jenkins + Docker + Nginx</p>
+
+<div class="container">
+    <div class="badge">Deployment Successful 🚀</div>
+    
+    <h1>CI/CD DevOps Pipeline</h1>
+    
+    <p>
+        This application was automatically built and deployed using a complete
+        DevOps workflow with Jenkins, Docker, and Nginx.
+    </p>
+
+    <div class="stack">
+        <div class="card">Jenkins</div>
+        <div class="card">Docker</div>
+        <div class="card">Nginx</div>
+        <div class="card">GitHub</div>
+        <div class="card">Linux</div>
+        <div class="card">CI/CD</div>
+    </div>
+
+    <div class="footer">
+        Automated Build • Containerized Deployment • Reliable Delivery
+    </div>
+</div>
+
 </body>
 </html>
