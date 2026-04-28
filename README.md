@@ -1,32 +1,32 @@
-# Jenkins CI/CD DevOps Project
+# Jenkins Docker CI/CD Project
 
-This project demonstrates an end-to-end CI/CD pipeline using Jenkins for automated build, test, and deployment of a containerized web application.
+This project demonstrates a complete CI/CD workflow using Jenkins to automate the deployment of a Dockerized web application.
 
-## Tools Used
+## Tech Stack
 
 * Jenkins
 * Docker
 * Nginx
-* Git
 * Linux
+* Git
 
-## Pipeline Stages
+## CI/CD Workflow
 
-1. Pull source code from repository
-2. Build application
-3. Build Docker image
-4. Run basic validation tests
-5. Deploy containerized application
-6. Serve application using Nginx reverse proxy
+1. Pull latest source code from GitHub
+2. Build Docker image
+3. Deploy container automatically
+4. Validate deployment
+5. Serve application via Nginx
 
-## Key Outcomes
+## Key Benefits
 
-* Reduced manual deployment effort
-* Faster and consistent releases
-* Improved deployment reliability
+* Faster deployments
+* Reduced manual effort
+* Consistent releases
+* Easy rollback and scaling
 
-## Future Improvements
+## Future Enhancements
 
-* AWS deployment integration
-* Monitoring with CloudWatch
-* Kubernetes migration
+* AWS EC2 deployment
+* CloudWatch monitoring
+* Kubernetes integration
